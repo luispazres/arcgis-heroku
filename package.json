@@ -12,12 +12,11 @@
     "url": "https://github.com/StefanNieuwenhuis/awesome-mapping-app"
   },
   "scripts": {
-    "start": "lite-server",
+    "start": "node server.js",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
-    "preinstall": "npm install -g lite-server",
     "postinstall": "ng build --aot -prod"
   },
   "private": true,
